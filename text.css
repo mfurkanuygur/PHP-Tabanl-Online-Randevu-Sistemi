@@ -1,0 +1,48 @@
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 8px 10px;
+	font-size:15px;
+}
+.counter{
+	padding: 0px;
+    margin-top: 55px;
+    list-style: none;
+}
+.counter li{
+	float:left;
+}
+.fact-box {
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+    margin-bottom: 12px;
+    height: 90px;
+    padding: 20px 0 0 58px;
+    position: relative;
+}
+.fact-box i {
+    position: absolute;
+    left: 10px;
+    top: 33px;
+    font-size: 23px;
+    color: #cccccc;
+}
+.fact-box strong {
+    color: #d94148;
+    font-size: 36px;
+    font-weight: 800;
+    display: block;
+    line-height: 30px;
+    margin: 0 0 6px;
+}
+.fact-box span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #777777;
+    text-transform: uppercase;
+}
+.randtext{
+	padding:20px;
+}

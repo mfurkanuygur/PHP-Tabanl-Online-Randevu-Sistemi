@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ;
+
+}
+.sectionone{
+
+    width: 100½;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.multicontainer{
+    width: 100%;
+    min-height: 290px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 0px 5px gray;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.step{
+    display: none;
+}
+.step.active{
+    display: block;
+}
+.form-group{
+    width: 100%;
+    margin-top:20px ;
+}
+
+.form-group select{
+    width: 100%;
+    border:1.5px solid lightgray;
+    padding: 5px;
+    font-size: 13px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.next-btn,
+.prev-btn,
+.sub-btn{
+    float: right;
+    font-size: 13px;
+    text-align: center;
+    text-shadow: 0;
+    margin-top: 20px;
+    padding: 7px;
+    border: 2px solid #ae132a;
+    background-color: #ae132a;
+    color: white;
+    border-radius: 5px;
+}
+.next-btn:hover,
+.prev-btn:hover,
+.sub-btn:hover{
+    background-color: white;
+    color: #ae132a;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    text-shadow: 0;
+    margin-top: 20px;
+    padding: 7px;
+    cursor: pointer;
+}
+.prev-btn{
+    float: left;
+}

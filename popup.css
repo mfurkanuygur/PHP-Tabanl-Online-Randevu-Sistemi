@@ -1,0 +1,136 @@
+﻿.mfp-newsletter.mfp-bg {
+    background: #222;
+    opacity: .6
+}
+
+.newsletter-popup-container {
+    position: relative
+}
+
+.newsletter-popup-container .newsletter-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.newsletter-popup-container .banner-content-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.newsletter-popup-container .banner-content {
+    position: static;
+    transform: translateY(0);
+    padding-top: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex: 0 0 calc((100% + 20px) / 6 * 4);
+    max-width: calc((100% + 20px) / 6 * 4)
+}
+
+.newsletter-popup-container .banner-title {
+    font-size: 4.6rem;
+    font-weight: 700;
+    letter-spacing: -.025em;
+    color: #222;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    line-height: 1.4em
+}
+
+.newsletter-popup-container .banner-title span {
+    color: #c96;
+    font-weight: 700
+}
+
+.newsletter-popup-container .banner-title light {
+    font-weight: 400
+}
+
+.newsletter-popup-container p {
+    font-weight: 400;
+    letter-spacing: .01em;
+    margin-bottom: 3.3rem;
+    line-height: 1.75em
+}
+
+.newsletter-popup-container .logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    min-height: 0
+}
+
+.newsletter-popup-container .form-control {
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+    border-radius: 0;
+    height: 4.6rem;
+    background-clip: border-box;
+    color: #666
+}
+
+.newsletter-popup-container .form-control::placeholder {
+    color: #666
+}
+
+.newsletter-popup-container .form-control:focus {
+    border-color: #f5f5f5
+}
+
+.newsletter-popup-container .input-group {
+    border: none
+}
+
+.newsletter-popup-container .input-group .btn {
+    min-width: 7rem;
+    background-color: #222;
+    color: #fff;
+    border-radius: 0;
+    text-transform: uppercase
+}
+
+.newsletter-popup-container .input-group .btn:hover,
+.newsletter-popup-container .input-group .btn:focus {
+    background-color: #c96
+}
+
+.newsletter-popup-container .custom-control {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    flex: 0 0 calc((100% + 20px) * .5 + 20px);
+    max-width: calc((100% + 20px) * .5 + 20px)
+}
+
+.newsletter-popup-container .custom-control-label {
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: .01em;
+    padding-left: 4.4rem
+}
+
+.newsletter-popup-container .custom-control-label:before,
+.newsletter-popup-container .custom-control-label:after {
+    left: -.5rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: .2rem
+}
+
+.newsletter-popup-container .newsletter-popup-content {
+    box-shadow: 0 10px 20px rgba(34, 34, 34, 0.3)
+}
+
+.newsletter-popup-container .mfp-close {
+    top: 1.2rem;
+    right: calc(100% / 100 + 2rem);
+    font-size: 2rem;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem
+}
